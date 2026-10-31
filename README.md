@@ -30,6 +30,24 @@ Encoded message: Khoor, Zruog!
 
 For decoding, enter `Khoor, Zruog!` and use `hello` as the target word. The program will identify rotation `3` and print the decoded text.
 
+## Example terminal session
+
+Example encoding and decoding (the main menu appears between commands):
+
+```text
+Enter your choice: e
+Enter a message: Hello, World!
+Enter rotation (1-25): 3
+Encoded message: Khoor, Zruog!
+
+Enter your choice: d
+Enter a message to decode: Khoor, Zruog!
+Enter a word in the original message: hello
+Rotation: 3
+Decoded message: Hello, World!
+Matching rotations: 1
+```
+
 ## What I practiced
 
 Python strings, `if` statements, `for` and `while` loops, input validation, and the remainder operator (`%`). The program is written without custom functions, as required by the original assignment.
